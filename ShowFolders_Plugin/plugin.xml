@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            categoryId="org.eclipse.ui.category.navigate"
+            defaultHandler="abhi.plugin.handler.ShowFoldersHandler"
+            description="Show Folder in Package Explorer "
+            id="abhi.plugin.showFolderCommand"
+            name="Show Folder">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.bindings">
+      <key
+            commandId="abhi.plugin.showFolderCommand"
+            schemeId="org.eclipse.ui.defaultAcceleratorConfiguration"
+            sequence="M1+M2+4">
+      </key>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="true"
+            locationURI="menu:navigate?endof=open.ext4">
+         <command
+               commandId="abhi.plugin.showFolderCommand"
+               label="Show Folder"
+               style="push">
+         </command>
+      </menuContribution>
+   </extension>
+
+</plugin>
