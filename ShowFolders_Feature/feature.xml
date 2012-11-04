@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="ShowFolders_Feature"
+      label="ShowFolders_Feature"
+      version="1.0.0.1"
+      provider-name="Abhinandan M K">
+
+   <description>
+      Similar to Open Resource Dialog.
+
+*But this dialog shows folders and projects.
+*Keyboard Short Cut is Ctrl+Shift+4
+*Appears in the Navigate menu
+   </description>
+
+   <copyright>
+      Copyright (C) 2012  Abhinandan M Kulkarni
+   </copyright>
+
+   <license url="http://www.gnu.org/licenses/gpl.html">
+      This program is free software: you can redistribute it and/or
+modify
+it under the terms of the GNU General Public License as published
+by
+the Free Software Foundation, either version 3 of the License,
+or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see http://www.gnu.org/licenses/.
+   </license>
+
+   <url>
+      <discovery label="Pextools Project home page" url="http://code.google.com/p/pextools/"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.runtime" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.core.resources" version="3.5.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.ui"/>
+      <import plugin="org.eclipse.ui.ide"/>
+   </requires>
+
+   <plugin
+         id="ShowFolders_Plugin"
+         download-size="0"
+         install-size="0"
+         version="1.0.0.1"
+         unpack="false"/>
+
+</feature>
