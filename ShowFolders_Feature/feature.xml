@@ -5,9 +5,8 @@
       version="1.0.0.1"
       provider-name="Abhinandan M K">
 
-   <description>
+   <description url="https://code.google.com/p/show-folders-eclipse-plugin/">
       Similar to Open Resource Dialog.
-
 *But this dialog shows folders and projects.
 *Keyboard Short Cut is Ctrl+Shift+4
 *Appears in the Navigate menu
@@ -34,6 +33,7 @@ along with this program.  If not, see http://www.gnu.org/licenses/.
    </license>
 
    <url>
+      <update url="https://show-folders-eclipse-plugin.googlecode.com/svn/trunk/ShowFolders_UpdateSite/site.xml"/>
       <discovery label="Pextools Project home page" url="http://code.google.com/p/pextools/"/>
    </url>
 
