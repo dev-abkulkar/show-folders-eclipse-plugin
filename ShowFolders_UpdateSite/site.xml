@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/ShowFolders_Feature_1.0.0.1.jar" id="ShowFolders_Feature" version="1.0.0.1">
+      <category name="Abhi Tools"/>
+   </feature>
+   <category-def name="Abhi Tools" label="Abhi Tools"/>
+</site>
