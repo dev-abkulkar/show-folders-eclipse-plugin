@@ -1,6 +1,6 @@
 #labels Installation
   # In Eclipse go to _Help-->Install New Software_
   # Click on _Add_ button to add a new Repository
-  # Type into _Name_ as "Pextools" and give the _Location_ as https://show-folders-eclipse-plugin.googlecode.com/svn/trunk/ShowFolders_UpdateSite/site.xml
+  # Type into _Name_ as "ShowFolders" and give the _Location_ as https://show-folders-eclipse-plugin.googlecode.com/svn/trunk/ShowFolders_UpdateSite/site.xml
   #  Select the *Abhi Tools* check box. Click on _Next_ and follow the instructions and click on _Finish_ to complete the installation
   
